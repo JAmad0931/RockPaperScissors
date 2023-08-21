@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <meta name="description" content = "Play Rock, Paper, Scissors">
+    <meta name="keywords" content = "Rock, Paper, Scissors">
+    <meta name="author" content = "Josue Amador">
+    <meta name="viewport" content = "width=device-width, initial-scale = 1.0">
+    <title>Rock, Paper, Scissors</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./functions.js"></script> 
+</head>
+<body>
+   <h1>Play Rock, Paper, Scissors</h1>
+   <h2>Instructions</h2>
+   <p>If you have never played rock, paper, scissors. Here's the rundown. First, 
+    you pick one of 3 options. Which as the name states is rock, paper, & scissors.
+    The way you do that here is first click the option you want and watch the image 
+    change. Then, hit play and the AI will play it's hand. The score is then 
+    automatically updated.
+   </p>
+   <h2>Cheatsheet</h2>
+   <div id="container">
+        <ul>
+            <li>Rock beats scissors</li>
+            <li>Paper beats rock</li>
+            <li>Scissors beats paper</li>
+        </ul>
+    </div>
+   <div id="background">
+    <table>
+        <tr>
+            <th>Player</th>
+            <th>AI</th>
+        </tr>
+        <tr>
+            <td id="player"><img src="./paper.png"></td>
+            <td id="AI"><img src="./rock.png"></td>
+        </tr>
+    </table>
+    <table id="tracker">
+        <tr>
+            <th id="height">Player Wins</th>
+            <th id="height">AI Wins</th>
+            <th id="height">Draws</th>
+        </tr>
+        <tr>
+            <td id="p">0</td>
+            <td id="ai">0</td>
+            <td id="draw">0</td>
+        </tr>
+    </table>
+   </div>
+   <div id="buttons">
+        <button id="button1" onclick="chooseRock()">Rock</button>
+        <button id="button2" onclick="choosePaper()">Paper</button>
+        <button id="button3" onclick="chooseScissors()">Scissors</button>
+    </div>
+    <div id="play">
+        <button id="button4" onclick="aiChoice(); add();">Play</button>
+    </div>
+</body>
+<footer>
+
+</footer>
+</html>

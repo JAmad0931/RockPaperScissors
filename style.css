@@ -1,0 +1,68 @@
+html{
+    background-color: #C8B4E1;
+}
+h1, h2, p {
+    text-align: center;
+}
+#container{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+/*CSS that centers the table*/
+#background {
+    display: flex;
+    justify-content: center;
+}
+/*Table styling*/
+table{
+    background-color: white;
+    border: 5px #E6C9E1 solid;
+    border-radius: 5px;
+    padding: 15px;
+}
+#tracker{
+    margin-left: 20px;
+}
+th, tr, td{
+    border: 2px #E6C9E1 solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+td{
+    padding-bottom: 10px;
+}
+#height{
+    height: 2px;
+    padding-right: 20px;
+}
+/*CSS that centers buttons*/
+#buttons { 
+    display: flex;
+    justify-content: center;
+}
+/*First 3 buttons styling*/
+#button1, #button2, #button3{
+    font-size: 20px;
+    margin: 50px;
+    border: 3px #AFD7F7 solid; 
+    border-radius: 5px;
+}
+#button1:hover, #button2:hover, #button3:hover, #button4:hover{
+    background-color: #AFD7F7;
+    font-size: 25px;
+
+}
+/*Play button styling*/
+#play{
+    display: flex;
+    justify-content: center;
+}
+#button4{
+    font-size: 20px;
+    margin: 10px;
+    margin-left: -15px;
+    border: 3px #AFD7F7 solid;
+    border-radius: 5px;
+}
